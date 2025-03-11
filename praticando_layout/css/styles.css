@@ -1,0 +1,15 @@
+.col-odd {
+    background-color: #f8d7da; /* Cor para colunas ímpares (rosa claro) */
+}
+.col-even {
+    background-color: #d4edda; /* Cor para colunas pares (verde claro) */
+}
+.column {
+    border: 1px solid #ccc; /* Adiciona borda nas colunas */
+    padding: 20px; /* Espaçamento interno das colunas */
+    text-align: center; /* Centraliza o texto */
+}
+
+.container{
+    border: 1px solid black;
+}

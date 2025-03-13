@@ -1,0 +1,107 @@
+<!-- 
+    Tabela
+    
+    * O Bootstrap também tem um componente muito interessante para tabelas;
+    * Vamos estilizá-las de forma interessante;
+    * E ainda conseguimos controlar algumas propriedades de cores;
+   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScrip Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <!-- Tabela Base -->
+    <div class="container">
+        <div class="col-6">
+            <table class="table m-4">
+                <thead>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Email</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">Arraial</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Tabela Base -->
+
+        <div class="col-6">
+            <table class="table table-dark table-striped m-4">
+                <thead>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Email</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Arraial</td>
+                        <td>D'Ajuda</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td colspan="2">Arraial</td>
+                        <td>arraial_ajuda@hmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

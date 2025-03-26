@@ -1,0 +1,87 @@
+<!--
+   Tarefa 03
+
+   1) Crie um formulário de cadastro de produto;
+
+   2) Coloque campos como: título, descrição, preço e outros que você achar interessante;
+
+   3) Crie também um checkbox, que sinalize que o produto está em estoque;
+
+   4) Crie um select para seleção de categoria;
+
+   5) Insira validações, se desejar;
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScrip Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Tarefa 03</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center m-4">
+            <div class="col-6">
+                <h2>Cadastro de produto:</h2>
+                <form class="row">
+                    <div class="col-12 mb-4">
+                        <label for="descricao" class="form-label">Descrição:</label>
+                        <input type="text" class="form-control" id="descricao"
+                            placeholder="Digite a descrição do produto" required minlength="12">
+                    </div>
+                    <div class="col-12">
+                        <label for="preco" class="form-label">Preço:</label>
+                    </div>
+                    <div class="input-group col-12 mb-4">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" placeholder="Valor">
+                    </div>
+                    <div class="col-12">
+                        <label for="preco" class="form-label">EAN-13:</label>
+                    </div>
+                    <div class="input-group col-12 mb-4">
+                        <span class="input-group-text">EAN</span>
+                        <input type="number" class="form-control" placeholder="Cód. EAN-13" required minlength="13">
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="categoria" class="form-label">Categoria:</label>
+                        <select name="categoria" id="categoria" class="form-select" required>
+                            <option value="">Selecione a categoria</option>
+                            <option value="NC">Nacional</option>
+                            <option value="IP">Importado</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="estoque">
+                            <label for="estoque" class="form-check-label">Existe estoque do produto?</label>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <button class="btn btn-primary" type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+</script>

@@ -1,0 +1,62 @@
+<!-- 
+    Alertas
+
+    * Os componentes de alerta servem para exibir mensagens;
+    * Temos diversas cores disponíveis, sinalizando cada ação possível;
+    * Como: erros, confirmações, informações e etc;
+    * Estas mensagens são como feedbacks do sistema para o usuário final;
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScrip Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Alertas</title>
+
+</head>
+
+<body>
+    <div class="col-6 m-4">
+        <div class="alert alert-primary" role="alert">
+            Esta é uma mensagem comum do sistema!
+        </div>
+        <div class="alert alert-success" role="alert">
+            Usuário cadastrado com sucesso!
+        </div>
+        <div class="alert alert-danger" role="alert">
+            Não foi possível fazer o login!
+        </div>
+        <!-- com link -->
+        <div class="alert alert-warning" role="alert">
+           Não encontramos o seu pedido, faça uma solicitação <a href="" class="alert-link">clicando aqui</a>. Responderemos o quantos antes
+        </div>
+        <!-- com mais conteúdo -->
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Pedido realizado</h4>
+            <p>Recebemos o seu pedido, e já estamos preparando para o envio</p>
+            <hr>
+            <p class="mb-0">Caso você precise de mais alguma informação, entre em contato <a href="" class="alert-link">clicando aqui</a></p>
+        </div>
+        <!-- com ícone de fechar -->
+         <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Ops!</strong> Aconteceu algo errado no sistema
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+         </div>
+    </div>
+   
+</body>
+
+</html>

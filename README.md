@@ -27,10 +27,8 @@ Cada componente foi implementado de forma clara, com foco em boas práticas e fa
 💡 Como usar
 Clone o repositório:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/ClaudioSarmento/course-bootstrap5.git
+
 Abra o arquivo index.html do componente desejado em seu navegador.
 
 Sinta-se à vontade para copiar, modificar e usar os exemplos nos seus próprios projetos!

@@ -1,0 +1,22 @@
+.div-desfocada {
+    background: rgba(255, 255, 255, 0.3); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    border-radius: 10px; /* Borda arredondada (opcional) */
+    padding: 20px;
+    color: #000; /* Texto preto ou qualquer cor escura */
+  }
+  
+
+.texto-para-slider {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra suave */
+    font-weight: bold; /* Se quiser reforçar */
+  }
+
+
+.carousel-item {
+    max-height: 400px;
+}
+
+
+ 
